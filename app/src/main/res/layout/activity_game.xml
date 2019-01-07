@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentPlace"-->
+        <!--android:name="com.example.ortalyona.game.Fragment1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentPlace2"-->
+        <!--android:name="com.example.ortalyona.game.Fragment2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    <TextView
+    android:id="@+id/scores"
+    android:layout_width="match_parent"
+    android:layout_height="27dp"
+    android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="Time to finish: 3 sec"
+
+        />
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="Hello World!"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:clickable="true"
+
+        />
+
+
+</LinearLayout>

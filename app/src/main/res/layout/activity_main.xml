@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/wifiSSID"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="27dp"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.392" />-->
+
+    <fragment
+        android:id="@+id/fragmentPlace"
+        android:name="com.example.ortalyona.game.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <!--app:layout_constraintBottom_toTopOf="@+id/wifiSSID"-->
+
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentPlace2"-->
+        <!--android:name="com.example.ortalyona.game.Fragment2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    <!--app:layout_constraintBottom_toTopOf="@+id/wifiSSID"-->
+
+
+    <Button
+        android:id="@+id/StartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START GAME"
+         />
+
+    <Button
+        android:id="@+id/Scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCORES"
+       />
+
+    <Button
+        android:id="@+id/logs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGS"
+        />
+    <Button
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View"
+        />
+
+
+</LinearLayout>

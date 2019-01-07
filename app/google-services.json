@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830334996621",
+    "firebase_url": "https://users-ce908.firebaseio.com",
+    "project_id": "users-ce908",
+    "storage_bucket": "users-ce908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830334996621:android:acd180343a528a29",
+        "android_client_info": {
+          "package_name": "com.example.ortalyona.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830334996621-ttn99hpj5tu3sha4pnqjsivfbmpvbta0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ortalyona.game",
+            "certificate_hash": "67d9e41d56f8a57db3d52b0a3ae881def422acdf"
+          }
+        },
+        {
+          "client_id": "830334996621-5dd4ol85q1fkhd1sre7leieuna4pmegt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOwAw7adgIY5CUfJU5D6B8_3GHrfXQZeU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830334996621-5dd4ol85q1fkhd1sre7leieuna4pmegt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/fragmentPlace"
+        android:name="com.example.ortalyona.game.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--app:layout_constraintBottom_toTopOf="@+id/wifiSSID"-->
+
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentPlace2"-->
+        <!--android:name="com.example.ortalyona.game.Fragment2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        />
+
+    <Button
+        android:id="@+id/backToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Menu" />
+
+
+    <!--<ListView-->
+        <!--android:id="@+id/list_item"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+</LinearLayout>
